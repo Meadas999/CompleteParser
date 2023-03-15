@@ -1,16 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="f737ff07-364d-4cf1-a303-b62fd759255f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/test/Empty-Statement-test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/block-test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/literals-test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/statement-list-test.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/Lexer.js" beforeDir="false" afterPath="$PROJECT_DIR$/main/Lexer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/Parser.js" beforeDir="false" afterPath="$PROJECT_DIR$/main/Parser.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/Run.js" beforeDir="false" afterPath="$PROJECT_DIR$/test/Run.js" afterDir="false" />
-    </list>
+    <list default="true" id="f737ff07-364d-4cf1-a303-b62fd759255f" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -39,12 +33,16 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;javascript.nodejs.core.library.configured.version&quot;: &quot;18.14.0&quot;,
-    &quot;javascript.nodejs.core.library.typings.version&quot;: &quot;18.14.0&quot;,
+    &quot;javascript.nodejs.core.library.configured.version&quot;: &quot;18.15.0&quot;,
+    &quot;javascript.nodejs.core.library.typings.version&quot;: &quot;18.15.0&quot;,
     &quot;last_opened_file_path&quot;: &quot;C:/Users/amier/OneDrive/Bureaublad/Fontys/S4/IP/CompleteParser/test/Run.js&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_interpreter_path&quot;: &quot;node&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.smartKeys&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
@@ -72,6 +70,8 @@
       <workItem from="1678625967963" duration="4723000" />
       <workItem from="1678697026878" duration="8885000" />
       <workItem from="1678802383245" duration="11298000" />
+      <workItem from="1678911565055" duration="746000" />
+      <workItem from="1678912559589" duration="1398000" />
     </task>
     <servers />
   </component>
