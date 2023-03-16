@@ -69,6 +69,21 @@ class Parser {
         return this.literal();
     }
 
+    additiveExpression() {
+        let left = this.literal();
+        while (this._lookahead.type === 'ADDITIVE_OPERATOR') {
+            const operator = this._eat('ADDITIVE_OPERATOR');
+            const right = this.literal();
+            left = {
+                type: 'BinaryExpression',
+                operator,
+                left,
+                right,
+            };
+        }
+        return left;
+    }
+
     literal() {
         switch (this._lookahead.type) {
             case 'NUMBER':

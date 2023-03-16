@@ -21,7 +21,7 @@ test(`2 + 2;`, {
     });
 test(`3 + 2 -2;`,{
     type: 'Program',
-    expression: {
+    body: [{
         type: 'BinaryExpression',
         operator: '-',
         left: {
@@ -36,8 +36,10 @@ test(`3 + 2 -2;`,{
                 value: 2,
             },
         },
-        right:
-
-    }
+        right: {
+            type: 'NumericLiteral',
+            value: 2,
+        },
+    }],
 });
 };
